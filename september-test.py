@@ -22,3 +22,22 @@ elif n % 4 == 0:
     print("Yep that's right; You're a fourth generation twat!")
 else:
     print("You're sort-a undefined")
+
+
+# no.3
+# 1st question
+def less_than_5(a):
+    new = []
+    for number in a:
+        if number > 5:
+            ++number
+        else:
+            new.append(number)
+    print(new)
+less_than_5([6,3,2,1,4,32,56,23,90,109])
+
+# writing code in one line 
+a = [1, 3, 4, 5, 6, 10, 18, 19, 35]
+print('')
+print(list(filter(lambda n: n < 5, a)))
+
